@@ -1,0 +1,33 @@
+[
+  {
+    "id": "req_7_5",
+    "titulo": "7.5 - Informação Documentada",
+    "template_texto": "A informação documentada é controlada conforme o procedimento {{proc_docs}}. A revisão atual da Lista Mestra é {{rev_lista}} de {{data_lista}}. O backup é realizado diariamente no local: {{local_backup}}.",
+    "campos": [
+      {
+        "chave": "proc_docs",
+        "pergunta": "Qual o nº do Procedimento de Docs?",
+        "tipo": "text",
+        "exemplo": "PR.SGQ.001"
+      },
+      {
+        "chave": "rev_lista",
+        "pergunta": "Qual a revisão da Lista Mestra?",
+        "tipo": "text",
+        "exemplo": "Rev. 03"
+      },
+      {
+        "chave": "data_lista",
+        "pergunta": "Data da Lista Mestra?",
+        "tipo": "date",
+        "exemplo": ""
+      },
+      {
+        "chave": "local_backup",
+        "pergunta": "Onde é feito o Backup?",
+        "tipo": "text",
+        "exemplo": "Servidor AWS"
+      }
+    ]
+  }
+]

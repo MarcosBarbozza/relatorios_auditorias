@@ -96,7 +96,7 @@ export default function App() {
 
   return (
     <div style={{ padding: '20px', fontFamily: 'Arial' }}>
-      <h1>Relatórios de Auditorias (Firebase)</h1>
+      <h1>Relatório de Auditorias (Firebase)</h1>
 
       {/* Seletor de Requisitos (Caso tenha mais de um) */}
       <div style={{ marginBottom: '20px' }}>
